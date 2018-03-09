@@ -32,4 +32,11 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <templates uuid="f541dadb-411d-4185-a7ed-c6935baaacb5">
+    <name>MaketTXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Maket TXT</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>
