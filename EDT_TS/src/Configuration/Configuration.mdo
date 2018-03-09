@@ -32,4 +32,5 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Nomenklatura</catalogs>
 </mdclass:Configuration>
