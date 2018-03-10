@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="725055fe-a323-461c-a22b-6e40b5cd580c">
+  <producedTypes>
+    <objectType typeId="55b3d764-ccfb-4265-bb8a-ed5edf772b82" valueTypeId="8b2eb02f-aab1-45c4-b3ae-921bd0146ae3"/>
+    <refType typeId="62e5a9cc-ff80-4da0-9988-23cccede9b0c" valueTypeId="74b66df0-1cb0-4d96-9cf6-90a34d919cd2">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="a14a085f-9735-41df-82a0-39aba9229eeb" valueTypeId="4efa22ee-6ec8-4ba2-b38b-1575a974535c"/>
+    <listType typeId="ecacde6b-c38e-410f-afe3-8a09e1066536" valueTypeId="1dd16b8d-fec5-4d86-bd5d-b6a74bd0cf8b"/>
+    <managerType typeId="cddb1d2c-e150-4ae2-b303-e1b140d504ea" valueTypeId="c0a67a2f-8e20-40ff-b848-3ab7490a70a2"/>
+  </producedTypes>
+  <name>UnitOfMeasurement</name>
+  <synonym>
+    <key>ru</key>
+    <value>Unit of measurement</value>
+  </synonym>
+  <comment>ед изм</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.UnitOfMeasurement.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.UnitOfMeasurement.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Nomenklatura</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
