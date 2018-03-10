@@ -11,4 +11,12 @@
   </synonym>
   <comment>Обработка</comment>
   <useStandardCommands>true</useStandardCommands>
+  <templates uuid="a1fda195-c8ba-4951-90e7-119fc2024e21">
+    <name>SKD</name>
+    <synonym>
+      <key>ru</key>
+      <value>SKD</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
 </mdclass:DataProcessor>

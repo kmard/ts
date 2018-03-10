@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0692fa80-8b0a-4b07-b3d3-7f8482df392e">
+  <producedTypes>
+    <objectType typeId="a78167d4-4867-4334-ae26-301e9eebbd4b" valueTypeId="beb52cc7-ec44-4a45-9c85-cdfaabdb17dc"/>
+    <refType typeId="755f4f6f-db3c-44d2-a89e-2ff52c969a4c" valueTypeId="24653ad1-8f92-41e6-b6b9-010e9c4e4e81">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="0a71a3c9-a80d-461d-adf4-c8a50d528d74" valueTypeId="2a82d8f5-d71a-46b2-86ad-fb9e08e51637"/>
+    <listType typeId="049b5916-200c-4298-aaea-465ee180ca91" valueTypeId="d9b9f230-cd63-43f5-9b5d-ad9e38a1a665"/>
+    <managerType typeId="07b8097c-28bc-4919-a3d3-1bc0cbefd458" valueTypeId="ab65b1e1-ab71-4922-ba51-cd9436cac39d"/>
+  </producedTypes>
+  <name>UnitOfMeasurement</name>
+  <comment>ед изм</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Nomenklatura</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

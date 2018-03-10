@@ -51,5 +51,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Nomenklatura</catalogs>
+  <catalogs>Catalog.UnitOfMeasurement</catalogs>
   <dataProcessors>DataProcessor.Ехp1_Treatment</dataProcessors>
 </mdclass:Configuration>
