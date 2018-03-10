@@ -32,6 +32,14 @@
     <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
+  <languages uuid="e5cd3a3a-af64-462a-9a6d-c3bba9920fd2">
+    <name>Eng</name>
+    <synonym>
+      <key>ru</key>
+      <value>Eng</value>
+    </synonym>
+    <languageCode>Eng</languageCode>
+  </languages>
   <subsystems>Subsystem.NormativeReferenceInformation</subsystems>
   <catalogs>Catalog.Nomenklatura</catalogs>
   <catalogs>Catalog.UnitOfMeasurement</catalogs>
