@@ -31,6 +31,18 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Nomenklatura.Form.Ехp1_ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="da0fa1c5-7c01-46a3-be8b-29614be11913">
+    <name>UnitOfMeasurement</name>
+    <synonym>
+      <key>ru</key>
+      <value>Unit of measurement</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.UnitOfMeasurement</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="38c7add8-1689-458b-a437-cba5ea30783e">
     <name>Ехp1_ФормаЭлемента</name>
     <synonym>
