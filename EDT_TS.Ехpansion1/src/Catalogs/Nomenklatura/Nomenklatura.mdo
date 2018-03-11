@@ -11,7 +11,9 @@
   </producedTypes>
   <name>Nomenklatura</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
   <useStandardCommands>true</useStandardCommands>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
@@ -28,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Nomenklatura.Form.Ехp1_ФормаЭлемента</defaultObjectForm>
   <attributes uuid="da0fa1c5-7c01-46a3-be8b-29614be11913">
     <name>UnitOfMeasurement</name>
     <synonym>
@@ -40,4 +43,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="38c7add8-1689-458b-a437-cba5ea30783e">
+    <name>Ехp1_ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
