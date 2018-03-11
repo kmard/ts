@@ -32,6 +32,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Nomenklatura.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="a6563695-8160-4b89-ae97-42d04939fa4b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="f541dadb-411d-4185-a7ed-c6935baaacb5">
     <name>MaketTXT</name>
     <synonym>

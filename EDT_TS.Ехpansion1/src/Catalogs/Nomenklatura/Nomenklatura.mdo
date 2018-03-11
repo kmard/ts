@@ -52,4 +52,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7e9d3cd3-453a-4c9e-9944-cb8471e512cf">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
