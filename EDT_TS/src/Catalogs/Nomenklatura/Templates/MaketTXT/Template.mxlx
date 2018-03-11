@@ -5,7 +5,7 @@
 		<defaultLanguage>ru</defaultLanguage>
 	</languageSettings>
 	<columns>
-		<size>2</size>
+		<size>3</size>
 	</columns>
 	<rowsItem>
 		<index>0</index>
@@ -27,6 +27,17 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>2</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>2</i>
+				<c>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3</v8:content>
 						</v8:item>
 					</tl>
 				</c>
