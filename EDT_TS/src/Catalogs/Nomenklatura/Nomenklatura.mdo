@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b56aa84b-32d2-4954-8672-80e89cc7fa41">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b56aa84b-32d2-4954-8672-80e89cc7fa41">
   <producedTypes>
     <objectType typeId="5c710d46-f286-4dd5-ac49-f2e91fc71e2b" valueTypeId="6de40fba-e801-49f5-8b3a-6e79a5875169"/>
     <refType typeId="d764a909-0c5c-4d5c-87ea-34261b8d8727" valueTypeId="1d2c8630-2407-498d-af1a-a8fec26fd935">
@@ -30,7 +30,22 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined/>
+  <predefined>
+    <items id="66477f35-b410-4155-807c-ecc172d01280">
+      <name>ХЗ</name>
+      <description>ХЗ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="0552476c-343f-4e1a-8e1b-215204ae89e8">
+      <name>ХЗ2</name>
+      <description>Хз2</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Nomenklatura.Form.ФормаЭлемента</defaultObjectForm>
