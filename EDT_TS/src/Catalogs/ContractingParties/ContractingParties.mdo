@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c8ca295-4f7e-40bc-8f02-27750b0eb26c">
+  <producedTypes>
+    <objectType typeId="35445c35-b1b7-4d14-ab3b-4e5cc16bf449" valueTypeId="88be9d3d-7b2e-40b6-8951-5c55eaa8936c"/>
+    <refType typeId="f05fe236-0bb2-4591-bc82-8016166e7b66" valueTypeId="5de76282-5f45-4967-8945-004c705a50d2">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="5aadb869-6d90-4495-b729-2fca1ea95a7f" valueTypeId="48548cb8-c0be-4884-97ac-70d407e1cffa"/>
+    <listType typeId="5aba74ae-9794-44c1-9537-963ea721225a" valueTypeId="1b7608d7-44ce-4139-937b-6382d69e626b"/>
+    <managerType typeId="5fd15dcc-835f-4562-aeb2-42d66f493e80" valueTypeId="677852b2-7d14-481b-bcea-e240b554f9dd"/>
+  </producedTypes>
+  <name>ContractingParties</name>
+  <synonym>
+    <key>ru</key>
+    <value>Contracting parties</value>
+  </synonym>
+  <comment>Контрагенты</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ContractingParties.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ContractingParties.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d4bee54c-9069-4210-85c4-e05a6de8d064">
+    <name>INN</name>
+    <synonym>
+      <key>ru</key>
+      <value>INN</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de82c060-f623-450b-93e0-5446b901df6c">
+    <name>OKPO</name>
+    <synonym>
+      <key>ru</key>
+      <value>OKPO</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

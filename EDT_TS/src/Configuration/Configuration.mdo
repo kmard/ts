@@ -35,4 +35,5 @@
   <subsystems>Subsystem.NormativeReferenceInformation</subsystems>
   <catalogs>Catalog.Nomenklatura</catalogs>
   <catalogs>Catalog.UnitOfMeasurement</catalogs>
+  <catalogs>Catalog.ContractingParties</catalogs>
 </mdclass:Configuration>
