@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Nomenklatura</content>
   <content>Catalog.UnitOfMeasurement</content>
+  <content>Catalog.ContractingParties</content>
 </mdclass:Subsystem>
