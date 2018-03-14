@@ -47,10 +47,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8bae9eaa-a7d9-4abb-bf9c-b34201f9be4b">
-    <name>Buer</name>
+    <name>Buyer</name>
     <synonym>
       <key>ru</key>
-      <value>Buer</value>
+      <value>Buyer</value>
     </synonym>
     <type>
       <types>Boolean</types>
