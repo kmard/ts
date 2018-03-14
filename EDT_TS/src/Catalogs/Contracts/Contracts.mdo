@@ -46,4 +46,16 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8bae9eaa-a7d9-4abb-bf9c-b34201f9be4b">
+    <name>Buer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Buer</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
