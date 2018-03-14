@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a39ad7d6-75f8-46f3-9847-577463e739f3">
+  <producedTypes>
+    <objectType typeId="3f48c9bb-e6a1-471a-9df2-3658f9bbaa76" valueTypeId="ec0b892a-2dc4-4b70-bf98-fef9a51f57f5"/>
+    <refType typeId="3f6bab67-f94f-41b8-beaf-c85d67027ae2" valueTypeId="8376f133-d1ca-479d-97f9-36ad932c300b">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="14ba8593-1057-48ab-bd01-f483c546e24a" valueTypeId="0aa23630-b562-4644-952f-3bfe77ce6be5"/>
+    <listType typeId="2b4f311b-d1b6-45e4-8c96-fefe61db8761" valueTypeId="627607e2-a46a-487b-8f8e-af9ca0624919"/>
+    <managerType typeId="7ccfe93d-62c8-4330-871f-2eb90befe530" valueTypeId="39822a34-7a43-4f1f-ba02-ce90792cd348"/>
+  </producedTypes>
+  <name>Contracts</name>
+  <synonym>
+    <key>ru</key>
+    <value>Contracts</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Contracts.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Contracts.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ContractingParties</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -36,4 +36,5 @@
   <catalogs>Catalog.Nomenklatura</catalogs>
   <catalogs>Catalog.UnitOfMeasurement</catalogs>
   <catalogs>Catalog.ContractingParties</catalogs>
+  <catalogs>Catalog.Contracts</catalogs>
 </mdclass:Configuration>
