@@ -34,4 +34,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="58d94ab9-65df-4c5d-badf-fcf37d715378">
+    <name>Provider</name>
+    <synonym>
+      <key>ru</key>
+      <value>Provider</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
