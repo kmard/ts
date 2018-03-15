@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c8ca295-4f7e-40bc-8f02-27750b0eb26c">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c8ca295-4f7e-40bc-8f02-27750b0eb26c">
   <producedTypes>
     <objectType typeId="35445c35-b1b7-4d14-ab3b-4e5cc16bf449" valueTypeId="88be9d3d-7b2e-40b6-8951-5c55eaa8936c"/>
     <refType typeId="f05fe236-0bb2-4591-bc82-8016166e7b66" valueTypeId="5de76282-5f45-4967-8945-004c705a50d2">
@@ -33,6 +33,30 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b2a5a7e2-3919-4230-9714-1ff2f105f0a9">
+      <name>FolderTest</name>
+      <description>Folder test</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="aff932fb-abbd-40db-8820-05dc1e088ea9">
+        <name>AbiBula</name>
+        <description>Abi bula</description>
+        <code xsi:type="core:StringValue">
+          <value>000000002</value>
+        </code>
+      </content>
+      <content id="5ec871b2-fc6e-4ddb-9191-dcca99ecd02a">
+        <name>BabuBula</name>
+        <description>Babu bula</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="d4bee54c-9069-4210-85c4-e05a6de8d064">

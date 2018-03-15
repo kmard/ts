@@ -10,4 +10,5 @@
   <content>Catalog.Nomenklatura</content>
   <content>Catalog.UnitOfMeasurement</content>
   <content>Catalog.ContractingParties</content>
+  <content>Catalog.Contracts</content>
 </mdclass:Subsystem>
