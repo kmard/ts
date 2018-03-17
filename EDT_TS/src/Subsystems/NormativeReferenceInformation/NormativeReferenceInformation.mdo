@@ -12,4 +12,5 @@
   <content>Catalog.ContractingParties</content>
   <content>Catalog.Contracts</content>
   <content>Catalog.Currencies</content>
+  <content>Catalog.Storage</content>
 </mdclass:Subsystem>

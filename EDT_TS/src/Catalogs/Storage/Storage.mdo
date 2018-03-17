@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28a77c31-af3d-4955-bddb-6a89ef6812f3">
+  <producedTypes>
+    <objectType typeId="222dc6e9-8aef-42d6-a1b7-3f6c598680ec" valueTypeId="fed75ebc-7cc9-45c3-862e-d65b34fbb349"/>
+    <refType typeId="d234be9e-77f6-4730-b03b-798c2b1c95ec" valueTypeId="1f46dfe7-b073-4a86-8293-da133434daa9">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="9956e178-f10f-4862-8d02-ee871779af62" valueTypeId="bda0e1ca-747e-471d-a4b2-ca045d0aae73"/>
+    <listType typeId="9edfb4cc-ba0c-43ba-8f2a-e92f5a7cb954" valueTypeId="d472e75c-e423-4332-b6e5-88326fd21bea"/>
+    <managerType typeId="82b79300-7a54-4e00-839a-99fb3352e88a" valueTypeId="ee4e38ed-a69a-4138-81d2-02b5396cfd04"/>
+  </producedTypes>
+  <name>Storage</name>
+  <synonym>
+    <key>ru</key>
+    <value>Storage</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Storage.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Storage.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="56c4882d-e7d1-446b-b3fc-28854f641f95">
+      <name>MainStorage</name>
+      <description>Main storage</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
