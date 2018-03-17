@@ -11,4 +11,5 @@
   <content>Catalog.UnitOfMeasurement</content>
   <content>Catalog.ContractingParties</content>
   <content>Catalog.Contracts</content>
+  <content>Catalog.Currencies</content>
 </mdclass:Subsystem>

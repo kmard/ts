@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3d66299-a775-4431-83c7-f1311997bcbf">
+  <producedTypes>
+    <selectionType typeId="b7076208-62d3-4e7c-801d-d88fe07b285a" valueTypeId="5f7784b8-fe76-4efe-8fab-b3d029d9780a"/>
+    <listType typeId="72c64111-455d-4f9f-846e-a84522559366" valueTypeId="82da022e-ba23-4bad-935e-232046e3bb01"/>
+    <managerType typeId="8c2029c6-ab9a-4a6f-b2d3-e3fe6d0cd7c8" valueTypeId="8a3ff815-1e9f-44bd-92b2-58468cf5a9da"/>
+    <recordSetType typeId="b78abc5b-eb23-403c-ad18-ad98ddf38e74" valueTypeId="167d2f01-ea65-48b7-9530-7dba68b22a74"/>
+    <recordKeyType typeId="5b008767-3002-47b4-b095-a96d966529e7" valueTypeId="2480907c-a746-4195-a160-b3af1c3e7c60"/>
+    <recordType typeId="1fcb6eab-9deb-431e-af81-70a5d659b60f" valueTypeId="0ba52448-cd52-4ac1-bc45-54a4318803d3"/>
+    <recordManagerType typeId="af846337-5c69-4e9c-8c21-c3b57618f65c" valueTypeId="12fd10c0-43bd-4fd8-a64e-c0e8430c672c"/>
+  </producedTypes>
+  <name>ExchangeRate</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange rate</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="13e634e6-f722-46ed-82f4-5f23b621e4b8">
+    <name>unit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Unit</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="6cd2a6ba-8922-4499-8ef0-8050bd04a59e">
+    <name>Rate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rate</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="58554779-0af0-4d71-b27e-b904684d96f8">
+    <name>Currency</name>
+    <synonym>
+      <key>ru</key>
+      <value>Currency</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Currencies</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
