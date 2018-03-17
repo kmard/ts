@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752cd26a-9dbc-4239-a8e1-55bd2e997960">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752cd26a-9dbc-4239-a8e1-55bd2e997960">
   <producedTypes>
     <objectType typeId="e9681708-f678-4b71-93ca-f683d5a2c592" valueTypeId="4672b6b7-f09d-4b25-b31a-bafebb5df646"/>
     <refType typeId="e17b1ca8-7533-4aa5-9250-e6072fe4e03a" valueTypeId="bf483a19-d374-4526-b905-29c4875e9833">
@@ -30,7 +30,29 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined/>
+  <predefined>
+    <items id="8d9d9c5f-9dc2-4911-ba3c-7ed93b466bd2">
+      <name>USD</name>
+      <description>USD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ad8a892d-d4db-4391-b152-1c6d98d1e5a0">
+      <name>EUR</name>
+      <description>EUR</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="2fb92889-9c4e-44ca-9210-ece4207c2909">
+      <name>RUB</name>
+      <description>RUB</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>
