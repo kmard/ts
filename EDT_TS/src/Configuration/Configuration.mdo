@@ -37,4 +37,6 @@
   <catalogs>Catalog.UnitOfMeasurement</catalogs>
   <catalogs>Catalog.ContractingParties</catalogs>
   <catalogs>Catalog.Contracts</catalogs>
+  <catalogs>Catalog.Currencies</catalogs>
+  <informationRegisters>InformationRegister.ExchangeRate</informationRegisters>
 </mdclass:Configuration>
