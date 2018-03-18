@@ -81,8 +81,45 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<c>
+				<c>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>1</i>
+				<c>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>2</i>
+				<c>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>2</height>
+	<height>3</height>
 	<viewSettings>
 		<showNamedRowsAndColumns>false</showNamedRowsAndColumns>
 		<showNamedRowsAndColumnsText>false</showNamedRowsAndColumnsText>
