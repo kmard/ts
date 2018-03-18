@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d0c9577-5a47-478c-9625-1d5a2c946475">
+  <name>BeforeWriteCatalog</name>
+  <synonym>
+    <key>ru</key>
+    <value>Before write catalog</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.mServer.BeforeWriteCatalogПередЗаписью</handler>
+</mdclass:EventSubscription>
