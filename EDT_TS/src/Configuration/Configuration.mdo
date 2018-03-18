@@ -34,6 +34,7 @@
   </languages>
   <subsystems>Subsystem.NormativeReferenceInformation</subsystems>
   <commonModules>CommonModule.mServer</commonModules>
+  <commonModules>CommonModule.mClient</commonModules>
   <eventSubscriptions>EventSubscription.BeforeWriteCatalog</eventSubscriptions>
   <catalogs>Catalog.Nomenklatura</catalogs>
   <catalogs>Catalog.UnitOfMeasurement</catalogs>

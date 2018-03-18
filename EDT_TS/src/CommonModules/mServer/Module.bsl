@@ -1,4 +1,4 @@
 
 Процедура BeforeWriteCatalogПередЗаписью(Источник, Отказ) Экспорт
-	// TODO: Вставить содержимое обработчика.
+  mClient.СообщитьКлиент("BeforeWriteCatalogEventSubscription");
 КонецПроцедуры
