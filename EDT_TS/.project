@@ -3,6 +3,7 @@
 	<name>EDT_TS</name>
 	<comment></comment>
 	<projects>
+		<project>EDT_TS.Ехpansion1</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
