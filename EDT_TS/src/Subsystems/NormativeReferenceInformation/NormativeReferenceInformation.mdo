@@ -13,4 +13,5 @@
   <content>Catalog.Contracts</content>
   <content>Catalog.Currencies</content>
   <content>Catalog.Storage</content>
+  <content>Role.FullRughts</content>
 </mdclass:Subsystem>
