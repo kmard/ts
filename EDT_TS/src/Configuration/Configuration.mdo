@@ -33,6 +33,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.NormativeReferenceInformation</subsystems>
+  <roles>Role.FullRughts</roles>
   <commonModules>CommonModule.mServer</commonModules>
   <commonModules>CommonModule.mClient</commonModules>
   <eventSubscriptions>EventSubscription.BeforeWriteCatalog</eventSubscriptions>
