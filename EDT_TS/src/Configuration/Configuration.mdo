@@ -33,6 +33,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.NormativeReferenceInformation</subsystems>
+  <subsystems>Subsystem.Documents</subsystems>
   <roles>Role.FullRughts</roles>
   <commonModules>CommonModule.mServer</commonModules>
   <commonModules>CommonModule.mClient</commonModules>
@@ -43,5 +44,6 @@
   <catalogs>Catalog.Contracts</catalogs>
   <catalogs>Catalog.Currencies</catalogs>
   <catalogs>Catalog.Storage</catalogs>
+  <documents>Document.ReceiptOfGoodsAndServises</documents>
   <informationRegisters>InformationRegister.ExchangeRate</informationRegisters>
 </mdclass:Configuration>

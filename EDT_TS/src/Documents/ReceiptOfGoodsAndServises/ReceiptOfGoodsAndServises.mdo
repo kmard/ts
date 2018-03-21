@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b775502c-67f5-4277-a84e-26baa1ef87e0">
+  <producedTypes>
+    <objectType typeId="db9f68f5-78a9-4ef7-afda-80fe68a1212b" valueTypeId="4a1c64d8-2e61-40ef-90d9-e6d4463ec213"/>
+    <refType typeId="b133d0b6-6e96-4f03-adcf-1e59567b9902" valueTypeId="81472958-e00b-499b-986e-cefa811e59b1">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="6ddfe650-d126-482d-baa9-1aee55f3fd66" valueTypeId="d21b0e73-f014-4d0e-bb7f-ae397863ccf4"/>
+    <listType typeId="cf4cbf8a-559a-40b8-b4ba-06e8c5a6a304" valueTypeId="ebbf2a5a-6d97-4667-9ed3-1bc70dcfc154"/>
+    <managerType typeId="0fbffbb1-078d-41cd-969f-7a37bb162eb3" valueTypeId="b0b9e55c-6488-436a-9e15-697777bbc133"/>
+  </producedTypes>
+  <name>ReceiptOfGoodsAndServises</name>
+  <synonym>
+    <key>ru</key>
+    <value>Receipt of goods and servises</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ReceiptOfGoodsAndServises.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
