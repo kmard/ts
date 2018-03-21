@@ -28,4 +28,40 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9fc9818a-e8fc-4ac8-b137-c70a68bd8c7d">
+    <name>Contractor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Contractor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ContractingParties</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11f15b52-0924-4716-93e7-5161f792ca04">
+    <name>Deal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Deal</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ContractingParties</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d1a1d08-6240-4835-a0c6-5198d2df2fdc">
+    <name>Storage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Storage</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Storage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
