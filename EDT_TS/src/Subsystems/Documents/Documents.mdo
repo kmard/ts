@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e5739de-d064-437f-9071-0ac64cb5f690">
+  <name>Documents</name>
+  <synonym>
+    <key>ru</key>
+    <value>Documents</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>InPuts</subsystems>
+</mdclass:Subsystem>
