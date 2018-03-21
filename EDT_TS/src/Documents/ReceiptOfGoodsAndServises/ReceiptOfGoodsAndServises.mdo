@@ -47,7 +47,7 @@
       <value>Deal</value>
     </synonym>
     <type>
-      <types>CatalogRef.ContractingParties</types>
+      <types>CatalogRef.Contracts</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
