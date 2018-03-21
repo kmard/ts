@@ -50,6 +50,18 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Nomenklatura.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a1217d66-e4cf-4165-9aca-37e134cd2beb">
+    <name>goods</name>
+    <synonym>
+      <key>ru</key>
+      <value>Goods</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="a6563695-8160-4b89-ae97-42d04939fa4b">
     <name>ФормаЭлемента</name>
     <synonym>
