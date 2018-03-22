@@ -64,4 +64,82 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="61eff1b3-f23f-4374-8e03-c631248a911b">
+    <producedTypes>
+      <objectType typeId="28922c4e-3c1d-41ee-a4df-dcdef5348659" valueTypeId="76d8650e-3fc2-4142-8900-9bfa62c4f234"/>
+      <rowType typeId="23f05362-c627-41bd-9946-3fc1b391925f" valueTypeId="9dc3adfe-0958-4f22-b759-cd8c328bf014"/>
+    </producedTypes>
+    <name>GoodsAndServices</name>
+    <synonym>
+      <key>ru</key>
+      <value>Goods and services</value>
+    </synonym>
+    <attributes uuid="aa484db6-515d-4ac6-a47f-ef7b7e7c9835">
+      <name>GaS</name>
+      <synonym>
+        <key>ru</key>
+        <value>GoodsAndServices</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Nomenklatura</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="438b62ff-488b-4151-bd62-7ccb8195cc07">
+      <name>UoM</name>
+      <synonym>
+        <key>ru</key>
+        <value>UnitOfMeasurement</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.UnitOfMeasurement</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="266d0705-daf3-4f5f-bd9f-0bf9b1066ede">
+      <name>Amount</name>
+      <synonym>
+        <key>ru</key>
+        <value>Amount</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="79dfa207-1832-45d7-b3bc-11d3a36cb627">
+      <name>Price</name>
+      <synonym>
+        <key>ru</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="6c564e67-c65e-404c-b770-7a7a184f7dd7">
+      <name>Summ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Summ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
