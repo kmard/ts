@@ -45,5 +45,6 @@
   <catalogs>Catalog.Currencies</catalogs>
   <catalogs>Catalog.Storage</catalogs>
   <documents>Document.ReceiptOfGoodsAndServises</documents>
+  <dataProcessors>DataProcessor.HistoryData</dataProcessors>
   <informationRegisters>InformationRegister.ExchangeRate</informationRegisters>
 </mdclass:Configuration>
