@@ -155,8 +155,23 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<c>
+				<c>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>51</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>4</height>
+	<height>5</height>
 	<viewSettings>
 		<showNamedRowsAndColumns>false</showNamedRowsAndColumns>
 		<showNamedRowsAndColumnsText>false</showNamedRowsAndColumnsText>
