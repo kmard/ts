@@ -17,6 +17,7 @@
       <key>ru</key>
       <value>SKD</value>
     </synonym>
+    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:DataProcessor>
