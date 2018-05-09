@@ -6,13 +6,59 @@
 	</dataSource>
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Код</dataPath>
+			<field>Код</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Наименование</dataPath>
+			<field>Наименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>UnitOfMeasurement</dataPath>
+			<field>UnitOfMeasurement</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>goods</dataPath>
+			<field>goods</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
-		<query></query>
+		<query>ВЫБРАТЬ
+	Nomenklatura.Код,
+	Nomenklatura.Наименование,
+	Nomenklatura.UnitOfMeasurement,
+	Nomenklatura.goods
+ИЗ
+	Справочник.Nomenklatura КАК Nomenklatura</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 		<dcsset:settings xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Код</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Наименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>UnitOfMeasurement</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>goods</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto">
+					</dcsset:item>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto">
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>
