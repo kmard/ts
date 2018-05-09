@@ -7,7 +7,13 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<dataSource>ИсточникДанных1</dataSource>
-		<query></query>
+		<query>ВЫБРАТЬ
+	Nomenklatura.Код,
+	Nomenklatura.Наименование,
+	Nomenklatura.UnitOfMeasurement,
+	Nomenklatura.goods
+ИЗ
+	Справочник.Nomenklatura КАК Nomenklatura</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
