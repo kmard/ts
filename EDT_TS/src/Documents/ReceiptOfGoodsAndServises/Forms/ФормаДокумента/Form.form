@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>Cap</name>
     <id>52</id>
@@ -14,8 +14,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Номер</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Number</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>НомерРасширеннаяПодсказка</name>
@@ -64,8 +66,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Дата</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Date</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДатаРасширеннаяПодсказка</name>
@@ -154,8 +158,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Contractor</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Contractor</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ContractorРасширеннаяПодсказка</name>
@@ -204,8 +210,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Deal</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.Deal</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>DealРасширеннаяПодсказка</name>
@@ -325,8 +333,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Storage</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Storage</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>StorageРасширеннаяПодсказка</name>
@@ -375,8 +385,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.GoodsAndServices.ИтогSumm</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.GoodsAndServices.TotalSumm</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>GoodsAndServicesИтогSummРасширеннаяПодсказка</name>
@@ -437,8 +449,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.GoodsAndServices.НомерСтроки</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.GoodsAndServices.LineNumber</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>GoodsAndServicesНомерСтрокиРасширеннаяПодсказка</name>
@@ -483,8 +497,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.GoodsAndServices.GaS</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.GoodsAndServices.GaS</segments>
+        </paths>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -537,8 +553,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.GoodsAndServices.UoM</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.GoodsAndServices.UoM</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>GoodsAndServicesUoMРасширеннаяПодсказка</name>
@@ -587,8 +605,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.GoodsAndServices.Amount</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.GoodsAndServices.Amount</segments>
+        </paths>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -641,8 +661,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.GoodsAndServices.Price</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.GoodsAndServices.Price</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>GoodsAndServicesPriceРасширеннаяПодсказка</name>
@@ -691,8 +713,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.GoodsAndServices.Summ</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.GoodsAndServices.Summ</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>GoodsAndServicesSummРасширеннаяПодсказка</name>
@@ -906,6 +930,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
