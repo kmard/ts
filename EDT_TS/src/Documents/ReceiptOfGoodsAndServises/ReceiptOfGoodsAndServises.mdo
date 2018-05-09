@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Receipt of goods and servises</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ReceiptOfGoodsAndServises.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -35,9 +36,11 @@
       <key>ru</key>
       <value>Contractor</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.ContractingParties</types>
     </type>
+    <mask></mask>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -47,9 +50,11 @@
       <key>ru</key>
       <value>Deal</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Contracts</types>
     </type>
+    <mask></mask>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -59,9 +64,11 @@
       <key>ru</key>
       <value>Storage</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Storage</types>
     </type>
+    <mask></mask>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -71,6 +78,7 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -84,15 +92,18 @@
       <key>ru</key>
       <value>Goods and services</value>
     </synonym>
+    <comment></comment>
     <attributes uuid="aa484db6-515d-4ac6-a47f-ef7b7e7c9835">
       <name>GaS</name>
       <synonym>
         <key>ru</key>
         <value>GoodsAndServices</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>CatalogRef.Nomenklatura</types>
       </type>
+      <mask></mask>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="438b62ff-488b-4151-bd62-7ccb8195cc07">
@@ -101,9 +112,11 @@
         <key>ru</key>
         <value>UnitOfMeasurement</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>CatalogRef.UnitOfMeasurement</types>
       </type>
+      <mask></mask>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="266d0705-daf3-4f5f-bd9f-0bf9b1066ede">
@@ -112,6 +125,7 @@
         <key>ru</key>
         <value>Amount</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -119,6 +133,7 @@
           <scale>3</scale>
         </numberQualifiers>
       </type>
+      <mask></mask>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="79dfa207-1832-45d7-b3bc-11d3a36cb627">
@@ -127,6 +142,7 @@
         <key>ru</key>
         <value>Price</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -134,6 +150,7 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <mask></mask>
       <dataHistory>Use</dataHistory>
     </attributes>
     <attributes uuid="6c564e67-c65e-404c-b770-7a7a184f7dd7">
@@ -142,6 +159,7 @@
         <key>ru</key>
         <value>Summ</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -149,7 +167,23 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
+      <mask></mask>
       <dataHistory>Use</dataHistory>
     </attributes>
   </tabularSections>
+  <templates uuid="50102b0c-0298-4354-89f1-5793d32e9d7d">
+    <name>PrintRoGaS</name>
+    <comment></comment>
+  </templates>
+  <commands uuid="caf43af2-eaa3-449d-8eab-f30f55a66a5d">
+    <name>PrintRoGaS</name>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ReceiptOfGoodsAndServises</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:Document>
