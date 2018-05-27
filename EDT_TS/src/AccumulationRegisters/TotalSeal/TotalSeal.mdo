@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f2a6b0a-329a-4b0d-9671-9229b3b565f6">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f2a6b0a-329a-4b0d-9671-9229b3b565f6">
   <producedTypes>
     <selectionType typeId="516fc94b-1bed-415e-9a59-2e9f100ba466" valueTypeId="0cfe0f3e-3669-4c8f-9126-c19f5b2a53af"/>
     <listType typeId="4431602e-f782-4553-bb45-e30e2e3dc5a8" valueTypeId="cebca8f7-2d60-49a4-a9f4-cc277509c5fa"/>
@@ -13,6 +13,7 @@
     <key>ru</key>
     <value>Total Receipt</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,6 +24,7 @@
       <key>ru</key>
       <value>Summ</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -30,6 +32,9 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="d6597a46-1f60-4c4a-9a6d-bb586ad06c0e">
@@ -38,9 +43,13 @@
       <key>ru</key>
       <value>Contractor</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.ContractingParties</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
   <dimensions uuid="3ebea07a-152f-4d9c-87e2-eadc8331a699">
@@ -49,9 +58,13 @@
       <key>ru</key>
       <value>Deal</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Contracts</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
   <dimensions uuid="cd329646-b0b1-4adc-b3e5-355af2e6c083">
@@ -60,9 +73,13 @@
       <key>ru</key>
       <value>Storage</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Storage</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
   <dimensions uuid="90464f53-a1d3-4649-b429-7e0be45e025c">
@@ -71,9 +88,13 @@
       <key>ru</key>
       <value>Ga S</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Nomenklatura</types>
     </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
 </mdclass:AccumulationRegister>
