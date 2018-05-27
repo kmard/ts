@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f2a6b0a-329a-4b0d-9671-9229b3b565f6">
+  <producedTypes>
+    <selectionType typeId="516fc94b-1bed-415e-9a59-2e9f100ba466" valueTypeId="0cfe0f3e-3669-4c8f-9126-c19f5b2a53af"/>
+    <listType typeId="4431602e-f782-4553-bb45-e30e2e3dc5a8" valueTypeId="cebca8f7-2d60-49a4-a9f4-cc277509c5fa"/>
+    <managerType typeId="a3684638-6f5d-49ea-b27b-b8ea1e3abd48" valueTypeId="adf41124-8016-40cb-a1e3-2fe64e8474f9"/>
+    <recordSetType typeId="af1d03cf-9311-4d24-b3d5-536496223880" valueTypeId="40630835-570d-42f6-8dab-70a364e99ddb"/>
+    <recordKeyType typeId="1d16f6cf-62ca-497b-b22c-44ee530c3284" valueTypeId="3f1bafc5-960c-4240-885c-427d89442103"/>
+    <recordType typeId="f75999a6-e3b3-40be-b1c6-eab17b7909b0" valueTypeId="b140c11f-a7a8-4e61-9034-df2ee50844e3"/>
+  </producedTypes>
+  <name>TotalSeal</name>
+  <synonym>
+    <key>ru</key>
+    <value>Total Receipt</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4b195a92-6030-4750-8935-5438f799b3c6">
+    <name>Summ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Summ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d6597a46-1f60-4c4a-9a6d-bb586ad06c0e">
+    <name>Contractor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Contractor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ContractingParties</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="3ebea07a-152f-4d9c-87e2-eadc8331a699">
+    <name>Deal</name>
+    <synonym>
+      <key>ru</key>
+      <value>Deal</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Contracts</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="cd329646-b0b1-4adc-b3e5-355af2e6c083">
+    <name>Storage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Storage</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Storage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="90464f53-a1d3-4649-b429-7e0be45e025c">
+    <name>GaS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ga S</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Nomenklatura</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

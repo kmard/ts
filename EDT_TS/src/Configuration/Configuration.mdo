@@ -48,4 +48,5 @@
   <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.HistoryData</dataProcessors>
   <informationRegisters>InformationRegister.ExchangeRate</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.TotalSeal</accumulationRegisters>
 </mdclass:Configuration>
